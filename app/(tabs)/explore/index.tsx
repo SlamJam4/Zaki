@@ -8,7 +8,7 @@ import { Colors } from '@/constants/Colors';
 import { Link } from 'expo-router';
 
 const fetchRestaurants = async () => {
-  const response = await fetch('https://41e8-194-126-140-114.ngrok-free.app/api/restaurants');
+  const response = await fetch('https://59f6-185-187-94-33.ngrok-free.app/api/restaurants');
   if (!response.ok) {
     console.log(response)
     throw new Error('Network response was not ok');
